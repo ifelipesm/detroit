@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans' , sans-serif;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sidebar1{
+    padding-top: 50px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    color:white;
+}
+
+/*Customizações do bootstrap*/
+.bg {
+    background-color: #cccccc;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.bg2 {
+    background-color: #cccccc;
+    background-image: url(../img/bg2.jpg);
+    opacity: 1;
+    filter: alpha(opacity = 50);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg3 {
+    background-color: #cccccc;
+    background-image: url(../img/bg3.jpeg);
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg4 {
+    background-color: #cccccc;
+    background-image: url(../img/bg4.jpg);
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg5 {
+    background-color: #cccccc;
+    background-image: url(../img/bg5.jpg);
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container,.container-login,.container-alt{
+	max-width: 1280px;
+	margin: 0 auto;
+	text-align: center;
+}
+.container{
+	padding: 2.5% 0;
+    color: white;
+}
+
+.container-login{
+	padding: 25% 0;
+    color: white;
+	}
+
+
+.container-center{
+	padding: 15% 0;
+	}
+
+.btn {
+	width: 100px;
+}
+
+.form-table{
+    width:100%;
+}
+
+.form-td{
+    width: 200px;
+    color:white;
+}
+.clear{clear: both;}
+
+
